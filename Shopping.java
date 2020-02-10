@@ -72,7 +72,7 @@ public class Shopping {
 			
 		case 3:	//case to allow user donate items to the store
 			Scanner sc = new Scanner (System.in);
-			System.out.println("What would you like  o donate? ");
+			System.out.println("What would you like  to donate? ");
 			String s1 = sc.nextLine();
 			System.out.println("You have succesfully donated "+ s1 + "\n\n");
 			break;
