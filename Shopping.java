@@ -28,7 +28,7 @@ public class Shopping {
 		case 1:		//displays menu for the items in the shop and enables user to purchase itms from the store 
 			System.out.println("T-shirts  Enter (1) : 			$8.00");
 			System.out.println("Shoes, Enter (2)  : 			$85.00");
-			System.out.println("Hats, Enter (3)  : 			$5.00");
+			System.out.println("Hats, Enter (3)  : 				$5.00");
 			System.out.println("Belts, Enter (4)  : 			$12.00");
 			System.out.println("Shorts, Enter (5)  : 			$15.00");
 			System.out.println("Pants, Enter (6)  : 			$25.00");
@@ -93,34 +93,34 @@ public class Shopping {
 			float f3 = input.nextFloat();
 			System.out.println("T-shirts  Enter (1) : 			$8.00");
 			System.out.println("Shoes, Enter (2)  : 			$85.00");
-			System.out.println("Hats, Enter (3)  : 			$5.00");
+			System.out.println("Hats, Enter (3)  : 				$5.00");
 			System.out.println("Belts, Enter (4)  : 			$12.00");
 			System.out.println("Shorts, Enter (5)  : 			$15.00");
 			System.out.println("Pants, Enter (6)  : 			$25.00");
 			System.out.println ("Which of the above items would you like to trade your " + s4 + " for ? ");
 			int number2 = input.nextInt();
 			if (number2 == 1) {
-				System.out.println("Your " + s4 + " has been traded for T-Shirts" );
+				System.out.println("Your " + s4 + " has been traded for a T-Shirts" );
 				wallet = (int) (wallet - (8 - f3));
 			}
 			if (number2 == 2) { 
-				System.out.println("Your " + s4 + " has been traded for Shoes");
+				System.out.println("Your " + s4 + " has been traded for a pair of Shoes");
 				wallet = (int) (wallet - (85 - f3));
 			}
 			if (number2 == 3) {
-				System.out.println("Your " + s4 + " has been traded for Hats");
+				System.out.println("Your " + s4 + " has been traded for a Hat");
 				wallet = (int) (wallet - (5 - f3));
 			}
 			if (number2 == 4) {
-				System.out.println("Your " + s4 + " has been traded for Belts");
+				System.out.println("Your " + s4 + " has been traded for a Belt");
 				wallet = (int) (wallet - (12 - f3));
 			}
 			if (number2 == 5 && wallet >= 15.00) {
-				System.out.println("Your " + s4 + " has been traded for Shorts");
+				System.out.println("Your " + s4 + " has been traded for a pair of Shorts");
 				wallet = (int) (wallet - (15 - f3));
 			}
 			if (number2 == 6) {
-				System.out.println("Your " + s4 + " has been traded Pants");
+				System.out.println("Your " + s4 + " has been traded for a pait of Pants");
 				wallet = (int) (wallet - (25 - f3));
 			}
 			
